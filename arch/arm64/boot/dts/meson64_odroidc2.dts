@@ -839,6 +839,12 @@
 		reg = <0x0 0xc8100000 0x0 0x200>;
 	};
 
+    rst-gpio {
+        compatible = "amlogic";
+        status = "ok";
+        gpio = <&gpio GPIOY_3 GPIO_ACTIVE_LOW>;
+    };
+
 	odroid_encoder {
 		compatible = "odroid-encoder";
 		status = "ok";
