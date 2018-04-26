@@ -842,7 +842,7 @@
     rst-gpio {
         compatible = "amlogic";
         status = "ok";
-        gpio = <&gpio GPIOY_3 GPIO_ACTIVE_LOW>;
+        gpio = <&gpio GPIOY_3 GPIO_ACTIVE_HIGH>;
     };
 
 	odroid_encoder {
